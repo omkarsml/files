@@ -68,7 +68,7 @@ p {color: white;text-align: center;}
 }
 
 ```
-```htm
+``` html
   <div>
 <h6>Import Values(Comma Seperated Values) From Sever File(.txt/.csv)</h6>
 <button id="btn1" disabled>Import</button>
@@ -79,7 +79,6 @@ p {color: white;text-align: center;}
 
     <input id="in1" class="in1" type="text" type="number" value="800000.00" name="number">
   </div>
-
   <div class="w20 om-container" style="padding-bottom: 38px;">
    <div id="slidecontainer">
    <h6>Face Scale: <span id="val"></span>%</h6>
