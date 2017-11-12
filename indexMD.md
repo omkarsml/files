@@ -21,6 +21,23 @@ Syntax highlighted code block
 1. Numbered
 2. List
 
+
+
+**Bold** and _Italic_ and `Code` text
+
+[Link](url) and ![Image](src)
+```
+
+For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+
+### Jekyll Themes
+
+Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/omkarsnl/files/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+
+### Support or Contact
+
+Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
  ```css
 button{height: 29px;width: 80px;padding-top: 12px;padding-bottom: 22px;}
 html,body{font-family:Verdana,sans-serif;font-size:15px;line-height:1.5}html{overflow-x:hidden}
@@ -50,11 +67,7 @@ p {color: white;text-align: center;}
 }
 
 ```
-
-</head>
- 
-
-<body>
+```
 <div>
 <h6>Import Values(Comma Seperated Values) From Sever File(.txt/.csv)</h6>
 <button id="btn1" disabled>Import</button>
@@ -81,8 +94,8 @@ p {color: white;text-align: center;}
   </div>
   </div>
 </div>
- 
-  ```javascript
+ ```
+ ```javascript
 var s = document.getElementById("Range");
 var c = document.getElementById("val");
 var a1 = document.getElementById("in1");
@@ -154,18 +167,3 @@ function intype() {
 }
 
 ```
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/omkarsnl/files/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
