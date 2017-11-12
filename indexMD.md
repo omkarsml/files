@@ -21,6 +21,10 @@ Syntax highlighted code block
 1. Numbered
 2. List
 
+function intype() {
+    document.getElementById("btn1").disabled = false;
+}
+
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
