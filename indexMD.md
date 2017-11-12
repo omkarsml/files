@@ -1,6 +1,4 @@
-<head>
-  <link href="https://highlightjs.org/static/demo/styles/tomorrow-night.css" rel="stylesheet">
-</head>
+
 
 ## Welcome to GitHub Pages
 
@@ -71,7 +69,7 @@ p {color: white;text-align: center;}
 }
 
 ```
-```css
+```
   <div>
 <h6>Import Values(Comma Seperated Values) From Sever File(.txt/.csv)</h6>
 <button id="btn1" disabled>Import</button>
