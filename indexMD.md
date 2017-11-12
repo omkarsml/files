@@ -39,7 +39,18 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 
  ```css
-button{height: 29px;width: 80px;padding-top: 12px;padding-bottom: 22px;}
+
+```
+```
+
+ ```
+ ```javascript
+
+```
+<!DOCTYPE html>
+<title>Title</title>
+
+<style>body {width: 500px;}button{height: 29px;width: 80px;padding-top: 12px;padding-bottom: 22px;}
 html,body{font-family:Verdana,sans-serif;font-size:15px;line-height:1.5}html{overflow-x:hidden}
 h6{font-size:16px;font-family:"Segoe UI",Arial,sans-serif;font-weight:500;margin:10px 0}
 p {color: white;text-align: center;}
@@ -65,38 +76,11 @@ p {color: white;text-align: center;}
 @media (min-width: 1024px){
  .w20 {width: 20%;}
 }
+</style>
 
-```
-```
-<div>
-<h6>Import Values(Comma Seperated Values) From Sever File(.txt/.csv)</h6>
-<button id="btn1" disabled>Import</button>
- <input id="in2" class="in2" type="url" oninput="intype()"  type="number"  placeholder="Enter URL https:/http:">
-
-  <div class="w20 om-container " style="padding-bottom: 31px;">
-   <h6>Face Level Input</h6>
-
-    <input id="in1" class="in1" type="text" type="number" value="800000.00" name="number">
-  </div>
-
-  <div class="w20 om-container" style="padding-bottom: 38px;">
-   <div id="slidecontainer">
-   <h6>Face Scale: <span id="val"></span>%</h6>
-   <input type="range" min="0" max="100" value="0" step="25" class="slider" id="Range">
-   </div>
-  </div>
-
-  <div class="om-container omm2 " >
-  <div>
-    <h6 class="inline">Total Faces Output <p id="out1">Output1</p></h6>
-    <h6 class="inline">Youth Factor Output <p id="out2">Output2</p></h6>
-    <h6 class="inline">Age Factor Output <p id="out3">Output3</p></h6>
-  </div>
-  </div>
-</div>
- ```
- ```javascript
-var s = document.getElementById("Range");
+<script type="application/javascript">
+  function $init() {return true;}
+ var s = document.getElementById("Range");
 var c = document.getElementById("val");
 var a1 = document.getElementById("in1");
 var b1 = document.getElementById("out1");
@@ -166,4 +150,34 @@ function intype() {
     document.getElementById("btn1").disabled = false;
 }
 
-```
+</script>
+
+<body>
+  <p checked class="title" id='title'>Title</p>
+  <div>
+<h6>Import Values(Comma Seperated Values) From Sever File(.txt/.csv)</h6>
+<button id="btn1" disabled>Import</button>
+ <input id="in2" class="in2" type="url" oninput="intype()"  type="number"  placeholder="Enter URL https:/http:">
+
+  <div class="w20 om-container " style="padding-bottom: 31px;">
+   <h6>Face Level Input</h6>
+
+    <input id="in1" class="in1" type="text" type="number" value="800000.00" name="number">
+  </div>
+
+  <div class="w20 om-container" style="padding-bottom: 38px;">
+   <div id="slidecontainer">
+   <h6>Face Scale: <span id="val"></span>%</h6>
+   <input type="range" min="0" max="100" value="0" step="25" class="slider" id="Range">
+   </div>
+  </div>
+
+  <div class="om-container omm2 " >
+  <div>
+    <h6 class="inline">Total Faces Output <p id="out1">Output1</p></h6>
+    <h6 class="inline">Youth Factor Output <p id="out2">Output2</p></h6>
+    <h6 class="inline">Age Factor Output <p id="out3">Output3</p></h6>
+  </div>
+  </div>
+</div>
+</body>
