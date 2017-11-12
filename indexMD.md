@@ -21,7 +21,7 @@ Syntax highlighted code block
 1. Numbered
 2. List
 
- <style>
+ ```css
 button{height: 29px;width: 80px;padding-top: 12px;padding-bottom: 22px;}
 html,body{font-family:Verdana,sans-serif;font-size:15px;line-height:1.5}html{overflow-x:hidden}
 h6{font-size:16px;font-family:"Segoe UI",Arial,sans-serif;font-weight:500;margin:10px 0}
@@ -49,7 +49,7 @@ p {color: white;text-align: center;}
  .w20 {width: 20%;}
 }
 
-</style>
+```
 
 </head>
  
@@ -81,7 +81,8 @@ p {color: white;text-align: center;}
   </div>
   </div>
 </div>
-   <script>
+ 
+  ```javascript
 var s = document.getElementById("Range");
 var c = document.getElementById("val");
 var a1 = document.getElementById("in1");
@@ -152,7 +153,7 @@ function intype() {
     document.getElementById("btn1").disabled = false;
 }
 
-</script>
+```
 
 **Bold** and _Italic_ and `Code` text
 
