@@ -1,3 +1,7 @@
+<head>
+  <link href="https://highlightjs.org/static/demo/styles/tomorrow-night.css" rel="stylesheet">
+</head>
+
 ## Welcome to GitHub Pages
 
 You can FFEF use the [editor on GitHub](https://github.com/omkarsnl/files/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
